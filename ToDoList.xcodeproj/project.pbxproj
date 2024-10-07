@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0781DF5E2CB2F385001F53EE /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0781DF5D2CB2F385001F53EE /* ToDo.swift */; };
 		07E464552A2E1E6800C0D752 /* ToDoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E464542A2E1E6800C0D752 /* ToDoListApp.swift */; };
 		07E464572A2E1E6800C0D752 /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E464562A2E1E6800C0D752 /* ToDoListView.swift */; };
 		07E464592A2E1E6D00C0D752 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07E464582A2E1E6D00C0D752 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0781DF5D2CB2F385001F53EE /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 		07E464512A2E1E6800C0D752 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07E464542A2E1E6800C0D752 /* ToDoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListApp.swift; sourceTree = "<group>"; };
 		07E464562A2E1E6800C0D752 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			children = (
 				07E464542A2E1E6800C0D752 /* ToDoListApp.swift */,
 				07E464562A2E1E6800C0D752 /* ToDoListView.swift */,
+				0781DF5D2CB2F385001F53EE /* ToDo.swift */,
 				07E464622A2E215C00C0D752 /* DetailView.swift */,
 				07E464582A2E1E6D00C0D752 /* Assets.xcassets */,
 				07E4645A2A2E1E6D00C0D752 /* Preview Content */,
@@ -143,6 +146,7 @@
 				07E464572A2E1E6800C0D752 /* ToDoListView.swift in Sources */,
 				07E464632A2E215C00C0D752 /* DetailView.swift in Sources */,
 				07E464552A2E1E6800C0D752 /* ToDoListApp.swift in Sources */,
+				0781DF5E2CB2F385001F53EE /* ToDo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +283,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +313,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
